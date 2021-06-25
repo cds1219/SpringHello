@@ -2,6 +2,14 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
  "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
  <beans>
- 	<bean class="ex01.Hello" id="h"></bean>
- 	<bean class="ex01.Hello" id="h2"></bean>
+ 	<bean class="ex01.Hello" id="h">
+ 		<property name="msg">
+ 			<value>Hello</value>	
+ 		</property>
+ 	</bean>
+ 	<bean class="ex01.Hello" id="h2">
+ 		<property name="msg">
+ 			<value>World</value>
+ 		</property>
+ 	</bean>
  </beans>

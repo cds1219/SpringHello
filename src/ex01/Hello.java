@@ -1,7 +1,7 @@
 package ex01;
 
 public class Hello {
-	private String msg="Hello World";
+	private String msg;
 
 	public String getMsg() {
 		return msg;
