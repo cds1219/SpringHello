@@ -12,4 +12,8 @@
  			<value>World</value>
  		</property>
  	</bean>
+ 	
+ 	<bean class="ex02.Circle" id="c"></bean>
+ 	<bean class="ex02.Rectangle" id="r"></bean>
+ 	<bean class="ex02.Triangle" id="t"></bean>
  </beans>
