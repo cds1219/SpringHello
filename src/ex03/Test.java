@@ -9,7 +9,7 @@ public class Test {
 		//MemberService service=new MemberService();
 		
 		BeanFactory factory=new XmlBeanFactory(new FileSystemResource("beans.xml"));
-		MemberService service=(MemberService) factory.getBean("memberService");
+		Service service=(Service) factory.getBean(args[0]);
 		service.selectAll();
 	}
 }
