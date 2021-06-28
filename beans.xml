@@ -17,5 +17,12 @@
  	<bean class="ex02.Rectangle" id="r"></bean>
  	<bean class="ex02.Triangle" id="t"></bean>
  	
- 	<bean class="ex03.MemberService" id="memberService"></bean>
+ 	<bean class="ex03.MemberService" id="memberService">
+ 		<property name="dao" ref="memberDAO">	<!-- setDao -->
+ 		</property>
+ 	</bean>
+ 	
+ 	<!-- memberDAO객체를 참조 -->
+ 	<bean class="ex03.MemberDAO" id="memberDAO"></bean>
+ 	
  </beans>

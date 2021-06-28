@@ -1,8 +1,12 @@
 package ex03;
 
 public class MemberService implements Service{
-	MemberDAO dao=new MemberDAO();
+	MemberDAO dao;
 	
+	public void setDao(MemberDAO dao) {
+		this.dao = dao;
+	}
+
 	public void selectAll() {
 		dao.selectAll();
 	}
