@@ -16,4 +16,6 @@
  	<bean class="ex02.Circle" id="c"></bean>
  	<bean class="ex02.Rectangle" id="r"></bean>
  	<bean class="ex02.Triangle" id="t"></bean>
+ 	
+ 	<bean class="ex03.MemberService" id="memberService"></bean>
  </beans>
