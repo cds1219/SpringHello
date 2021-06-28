@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="D:/springLIB/commons-logging.jar"/>
 	<classpathentry kind="lib" path="D:/springLIB/commons-pool.jar"/>
 	<classpathentry kind="lib" path="D:/springLIB/spring.jar"/>
+	<classpathentry kind="lib" path="D:/lib/ojdbc8-19.3.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
