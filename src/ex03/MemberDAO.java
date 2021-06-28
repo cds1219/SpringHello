@@ -2,7 +2,7 @@ package ex03;
 
 import java.sql.*;
 
-public class MemberDAO {
+public class MemberDAO implements DAO{
 
 	public void selectAll() {
 		try {

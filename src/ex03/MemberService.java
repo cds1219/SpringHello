@@ -1,9 +1,9 @@
 package ex03;
 
 public class MemberService implements Service{
-	MemberDAO dao;
+	DAO dao;
 	
-	public void setDao(MemberDAO dao) {
+	public void setDao(DAO dao) {
 		this.dao = dao;
 	}
 
